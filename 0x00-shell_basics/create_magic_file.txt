@@ -1,0 +1,10 @@
+offset<tab> datatype searchedforthis description
+!mime filetype
+
+#Commands 
+- Compile file to magic file Note: -C is captial
+file -C -m filename
+- run command show file typr
+file --mime-type -m filename.mgc *
+-run command show desription of file
+file -m filename.mgc *
