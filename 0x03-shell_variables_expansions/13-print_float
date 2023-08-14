@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..z}{a..z}"\n" | grep oo -v | wc -l
+printf "%.2f\n" $(echo $NUM)
