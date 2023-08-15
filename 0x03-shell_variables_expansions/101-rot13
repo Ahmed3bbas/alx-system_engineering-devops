@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'
+while read arg; do echo $arg | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'; done
