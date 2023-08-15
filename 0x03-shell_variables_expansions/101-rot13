@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cat $1) | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'
+cat $1 | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'
